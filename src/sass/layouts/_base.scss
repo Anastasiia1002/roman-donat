@@ -1,0 +1,110 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  position: relative;
+  margin: 0;
+
+  font-family: 'Montserrat';
+  font-size: 16px;
+  line-height: calc(20px / 16px);
+  color: #2e2520;
+
+  background-image: url(../images/background/bg-header_sm.png),
+    url(../images/background/bg-bottom_sm.png);
+  background-repeat: no-repeat;
+  background-position: left top, left bottom 211px;
+  background-size: 100% 460px, 100% 1303px;
+
+  @media screen and (min-width: 768px) {
+    background-image: url(../images/background/bg-header_md.png),
+      url(../images/background/bg-bottom_md.png);
+    background-position: left top, left bottom 72px;
+    background-size: 100% 622px, 100% 1456px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    background-color: #fffff9;
+    background-image: url(../images/background/bg-header_lg.png),
+      url(../images/background/bg-bottom_lg.png);
+    background-size: 100% 1035px, 100% 2073px;
+    background-position: center top, center bottom;
+  }
+}
+
+body.is-open {
+  overflow-y: hidden;
+}
+
+.container {
+  max-width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  // outline: 2px solid tomato;
+
+  @media screen and (min-width: 768px) {
+    max-width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    max-width: 1280px;
+
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
+.list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  list-style: none;
+  color: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+.section-title {
+  font-family: 'Caveat Brush';
+  font-size: 24px;
+  line-height: calc(30px / 24px);
+  color: #2e2520;
+  text-align: center;
+
+  @media screen and (min-width: 768px) {
+    font-size: 36px;
+    line-height: calc(45px / 36px);
+  }
+}

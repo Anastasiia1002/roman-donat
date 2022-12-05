@@ -1,0 +1,19 @@
+//utils
+@import './utils/vars';
+@import './utils/mixin';
+
+//common style
+@import './common';
+@import './example';
+
+@import './layouts/base';
+@import './layouts/header';
+@import './layouts/menu';
+@import './layouts/about';
+@import './layouts/program';
+@import './layouts/speakers';
+@import './layouts/price';
+@import './layouts/reviews';
+@import './layouts/registration';
+@import './layouts/contact';
+@import './layouts/footer';
