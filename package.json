@@ -2,10 +2,10 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://github.com/Anastasiia1002/roman-donat-main",
+  "homepage": "https://github.com/Anastasiia1002/roman-donat",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /roman-donat-main/"
+    "build": "parcel build src/*.html --public-url /roman-donat/"
   },
   "repository": {
     "type": "git",
